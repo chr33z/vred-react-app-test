@@ -1,0 +1,40 @@
+html,
+body {
+  background-color: transparent;
+  user-select: none;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  font-weight: bold;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.state1 {
+  background-color: #f00;
+}
+
+.state2 {
+  background-color: #0f0;
+}
+
+.state3 {
+  background-color: #00f;
+}
